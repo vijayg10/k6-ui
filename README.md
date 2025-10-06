@@ -10,14 +10,6 @@ A modern web-based dashboard for monitoring and controlling [k6](https://k6.io/)
 - **Groups & Checks** - View test groups and their check statistics with pass/fail rates
 - **Dark Theme** - Modern dark purple UI theme for comfortable viewing
 
-## Screenshots
-
-The dashboard provides four main pages:
-- **Status** - Current test execution status
-- **Metrics** - Performance metrics from the running test
-- **Groups** - Test groups and check results
-- **Control** - Test execution controls
-
 ## Prerequisites
 
 - Node.js (v18 or higher)
