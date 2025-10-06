@@ -8,7 +8,6 @@ A modern web-based dashboard for monitoring and controlling [k6](https://k6.io/)
 - **Metrics Display** - Real-time metrics visualization with formatted values for time, data, and rates
 - **Test Control** - Adjust VUs, pause/resume, and stop tests during execution
 - **Groups & Checks** - View test groups and their check statistics with pass/fail rates
-- **Dark Theme** - Modern dark purple UI theme for comfortable viewing
 
 ## Prerequisites
 
@@ -63,12 +62,6 @@ Run your k6 test with the REST API enabled on port 6565:
 k6 run --address localhost:6565 your-test-script.js
 ```
 
-Or use the `--http-debug` flag (defaults to localhost:6565):
-
-```bash
-k6 run --http-debug your-test-script.js
-```
-
 ### Start the Dashboard
 
 ```bash
@@ -103,7 +96,6 @@ To change the k6 API port, modify the `target` in `vite.config.js`.
 - **TailwindCSS** - Styling
 - **k6 REST API** - Data source
 
-```
 
 ## API Endpoints Used
 
@@ -162,7 +154,3 @@ npm run preview
 ## License
 
 Unknown
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
