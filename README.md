@@ -19,7 +19,7 @@ A modern web-based dashboard for monitoring and controlling [k6](https://k6.io/)
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/vijayg10/k6-ui
 cd k6-ui
 ```
 
